@@ -10,7 +10,7 @@ function Button({
   ...props
 }) {
   const baseStyle =
-    "rounded-md font-medium transition-all duration-300 ease-in-out focus:outline-none";
+    "rounded-md font-medium transition-all duration-300 ease-in-out outline-none";
 
   const variants = {
     primary: "bg-[#6C25FF] text-white hover:bg-[#6C25FF]/90",
