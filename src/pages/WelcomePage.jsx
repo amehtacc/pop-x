@@ -6,7 +6,7 @@ const WelcomePage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen flex justify-center items-end md:items-center px-4 py-8">
+    <div className="h-screen flex justify-center items-end px-4 py-8">
       <div className="w-full sm:max-w-sm flex flex-col gap-6">
         <div>
           <h1 className="text-2xl text-[#1D2226] font-medium mb-1">Welcome to PopX</h1>
